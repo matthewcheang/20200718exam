@@ -1,12 +1,12 @@
 ---
 layout: layout.html
 ---
-<h1> Book Introduction </h1>
+<h1> Books </h1>
 
-<p>HTML and CSS</p>
-<p>JavaScript and jQuery</p>
-<p>Head First HTML and CSS</p>
-<p>Digital Minimalism</p>
+<p>1.HTML and CSS</p>
+<p>2.JavaScript and jQuery</p>
+<p>3.Head First HTML and CSS</p>
+<p>4.Digital Minimalism</p>
 
 <ul>
 {%- for post in collections.post reversed -%}
