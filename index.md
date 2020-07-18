@@ -3,9 +3,10 @@ layout: layout.html
 ---
 <h1> Book Introduction </h1>
 
-<p>Mrs. Lilly is Silly</p>
-<p>Mr Burke is Berserk</p>
-<p>Miss Kraft Is Daft</p>
+<p>HTML and CSS</p>
+<p>JavaScript and jQuery</p>
+<p>Head First HTML and CSS</p>
+<p>Digital Minimalism</p>
 
 <ul>
 {%- for post in collections.post reversed -%}
